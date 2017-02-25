@@ -4,27 +4,38 @@
 <!-- relation between html and css -->
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
   rel="stylesheet"  type='text/css'>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto+Condensed" type="text/css">
 
 <style>
 .color-red{
 	color: red;
 }
-h2{font-family: lobster;}
-
+h2{font-family: Roboto Condensed;}
+.blue-border{
+	border-width: 10px;
+	border-color:blue;
+	border-style:solid;
+	border-radius: 35%;
+}
 
 </style>
 
 
 <div class="container-fluid">
-
+<div class="row">
+<div class= col-xs-2>
 <h2 class="color-red">CatPhotoApp</h2>
-<img src="https://bit.ly/fcc-relaxing-cat" class="img-responsive" alt="cats">
+</div>
+<div class= col-xs-2>
+<img src="https://bit.ly/fcc-relaxing-cat" class="img-thumbnail img-responsive" alt="cats" width="100px" height="100px">
+</div>
+</div>
 <img src="https://bit.ly/fcc-running-cats"  alt="more cats">
 <div class="row">
 <div class="col-xs-1">
-<button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button>
+<button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i><a href="facebook.com"></a> Like</button>
 </div>
 <div class="col-xs-1">
 <button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button>
@@ -37,6 +48,4 @@ h2{font-family: lobster;}
 
 
 
-</style>
-
-
+</html>
